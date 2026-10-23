@@ -1,0 +1,54 @@
+{
+  "generated_utc": "2026-10-23T21:25:11.475766+00:00",
+  "data_kind": "simulated",
+  "input_sha256": "7e99ca539ce05c0e2c89c3435e7b0094f39a29552fff23cf48cb76dda25d13bf",
+  "configuration": {
+    "spot": 100.0,
+    "strike": 100.0,
+    "rate": 0.03,
+    "volatility": 0.2,
+    "maturity": 1.0,
+    "seed": 42,
+    "mc_paths": [
+      2000,
+      10000,
+      50000,
+      200000
+    ],
+    "hedge_paths": 6000,
+    "fine_steps": 252,
+    "rebalance_steps": [
+      12,
+      63,
+      252
+    ],
+    "cost_bps": [
+      0.0,
+      5.0,
+      10.0
+    ],
+    "physical_drift": 0.06
+  },
+  "source_sha256": {
+    "__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+    "__main__.py": "47ef354e7bf906656795feba8f0d0cfb2676e47f138b2ae7338f9a5b4019f63c",
+    "core.py": "0434932ff22c3c9b4bc717511d179bf6c725460c017996ec970787f55f59afd8",
+    "runtime.py": "f13a499971d7a1d51ea7409b0e02d50129167868fa4adfa39e236dae0b6a8db7"
+  },
+  "environment": {
+    "python": "3.12.6",
+    "os": "Windows",
+    "machine": "AMD64",
+    "packages": {
+      "numpy": "2.1.2",
+      "pandas": "2.2.3",
+      "scipy": "1.14.1",
+      "scikit-learn": "1.5.2",
+      "lightgbm": "4.6.0",
+      "catboost": "1.2.8",
+      "matplotlib": "3.9.2",
+      "psutil": "6.0.0"
+    }
+  },
+  "measurement_note": "Wall time and process RSS sampled every 10ms; timing is machine-specific; brief peaks may be missed."
+}
