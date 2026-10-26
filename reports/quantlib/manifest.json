@@ -1,0 +1,13 @@
+{
+  "python": "3.12.6",
+  "source_sha256": {
+    "benchmark.py": "faa131c1c2d285b09c84a251a1de987a730231724ed78f4a21fff33e418a3ed0",
+    "core.py": "0434932ff22c3c9b4bc717511d179bf6c725460c017996ec970787f55f59afd8"
+  },
+  "outputs_sha256": {
+    "grid.csv": "9eb234af5509b6b7021641eee660b70df98b972ba2d8bf0e456092ed9b7bcb4e",
+    "metrics.json": "add672bacc9f1b3f57c9823e5bf9ab73470c905aa9a1951dc58b2909739dfe6e",
+    "quantlib_errors.png": "907e44022e73ca7a2f8b94f89a905ddef77c873ebc48e64cf65035c4a3c2ae62",
+    "REPORT.md": "83e7ebd5f5bd76834d22192c558e62acad3fdb5356c74532da945b49eeeadd6f"
+  }
+}

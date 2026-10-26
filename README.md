@@ -6,6 +6,14 @@
 
 # Derivatives Pricing Lab
 
+## Numerical reference and quote diagnostics
+
+**A correct formula still needs the right contract and observation convention.** The analytical implementation agrees with QuantLib 1.44 over 1,296 predetermined European call/put cases. Maximum absolute price difference is 4.3e-14 in the grid's price units; Greek differences are reported in their native sensitivity units, not as market accuracy.
+
+[Independent comparison](reports/quantlib/REPORT.md) · [SPX quote methods](docs/QUOTE_RESEARCH.md) · [Executed synthetic quote fixture](reports/quote-fixture/REPORT.md)
+
+The new quote workflow matches security/date/expiry/settlement, checks units and compares fixed lagged-volatility marks with observed intervals. Licensed SPX inputs and derived results remain private pending publication rights. The numerical grid, synthetic fixture and original simulated hedging study are distinct evidence.
+
 **Research question:** How do numerical uncertainty, discrete hedging error and trading costs interact in a transparent option model?
 
 This project connects analytical European option prices and Greeks to Monte Carlo estimates and a self-financing short-option hedge. It uses the published Black-Scholes-Merton model, declared parameters and common simulated stock paths.
@@ -125,8 +133,7 @@ The benchmark prices a fixed vectorized batch of 10,000 options after warmup, us
 | [Worked walkthrough](docs/WALKTHROUGH.md) | Follow the research logic and a numerical example. |
 | [Methods and input contract](docs/METHODS.md) | Check assumptions, conventions and supported interfaces. |
 | [Executed research report](reports/demo/REPORT.md) | Inspect the recorded results and limitations. |
-| [Interview discussion](docs/INTERVIEW.md) | Practice explaining decisions and failure modes. |
-| [Resume evidence](docs/RESUME.md) | Trace draft claims to measured artifacts. |
+| [Technical discussion](docs/DISCUSSION.md) | Practice explaining decisions and failure modes. |
 | [Provenance](docs/PROVENANCE.md) | Understand attribution, AI assistance and data rights. |
 
 The implementation and documentation were developed with AI assistance from public mathematical methods. No classroom solution files, company code or market-data snapshots are included. [MIT license](LICENSE).

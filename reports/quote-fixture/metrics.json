@@ -1,0 +1,24 @@
+{
+  "data_kind": "synthetic-fixture",
+  "input_rows": 1134,
+  "eligible_rows": 1134,
+  "exclusions": {
+    "wrong_security": 0,
+    "exercise_or_settlement": 0,
+    "contract_size": 0,
+    "days_to_expiry": 0,
+    "missing_forward": 0,
+    "moneyness": 0,
+    "invalid_quote": 0,
+    "curve_or_history": 0
+  },
+  "slices": 90,
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "public_derived_results_permission": true
+}

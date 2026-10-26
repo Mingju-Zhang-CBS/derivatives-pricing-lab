@@ -1,0 +1,17 @@
+{
+  "study": "SPX-EOD-valuation-diagnostics-v1",
+  "declared_before_evaluation": "2026-10-26",
+  "secid": 108105,
+  "years": [2020, 2021, 2022, 2023, 2024],
+  "development": [2020, 2021, 2022],
+  "review": [2023],
+  "historical_confirmation": [2024],
+  "option_selection": "European, PM settlement flag 0, standard settlement flag 0, contract size 100; valid noncrossed closing bid/ask; DTE 14-180 inclusive; strike/forward 0.8-1.2 inclusive",
+  "volatility_models": [20, 60],
+  "volatility": "sample standard deviation of log SPX close changes ending previous observed session, sqrt(252) annualization; no tuned coefficient",
+  "valuation": "discounted Black forward price; same-date matched vendor forward and linearly interpolated continuously compounded zero rate; own ACT/365 maturity",
+  "vendor_iv": "optional consistency diagnostic only; not independent predictive input",
+  "slice_family": "every year x call/put x DTE [14,30], (30,90], (90,180]; include every predeclared slice and empty ones",
+  "public_release": "code, numerical grid and synthetic quote fixture; licensed records and detailed/derived real-data outputs private pending applicable publication rights",
+  "timing_limit": "EOD quotes, underlying close, forward and rate curve may have different observations; calendar-day T is a declared simplification; no intraday/queue/fill claim"
+}

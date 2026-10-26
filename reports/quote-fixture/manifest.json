@@ -1,0 +1,38 @@
+{
+  "protocol_sha256": "33d4827341a91d2f72595ed9bde18d61062c0d4239868ad483308488eb9f2d20",
+  "source_record": {
+    "data_kind": "synthetic-fixture",
+    "public_derived_results_permission": true,
+    "seed": 20261026
+  },
+  "unit_contract": {
+    "strike_divisor": 1000,
+    "curve_rate_divisor": 100,
+    "premium_unit": "SPX_index_points",
+    "unit_sources_verified": true,
+    "verification_scope": "units assigned by fixture generator; no observed market data"
+  },
+  "inputs_sha256": {
+    "spx_options.csv.gz": "89f4d6d3bf73080671e7691a1bf45167ea3cda8a05239263190d74a39706d3b4",
+    "spx_forwards.csv.gz": "e1ade733b86700e04c9a372259d6be98e2c6a5c4ee5908f69e7a6ebd368f0307",
+    "spx_spot.csv": "d45a36c41bae5d047f3820738ec066b29d3597953c8b50881bc934da0518b069",
+    "zero_curve.csv.gz": "ff36f949c0766f99d06641c5fadc8249fa4d8fd5abf8375115442dd767b77197"
+  },
+  "source_sha256": {
+    "benchmark.py": "faa131c1c2d285b09c84a251a1de987a730231724ed78f4a21fff33e418a3ed0",
+    "fixture.py": "a825936b6ed588f53905080ad1c70a6cd50a644ed5e263b544e41fbd72e5fe51",
+    "quotes.py": "8e2f37bd0930d3e73578359b976a4899ca972dde9560c1142920804643eba2ef",
+    "__init__.py": "7551865f89f58bc06ccd78a2dc794b493ddcfcb18ad841f2e86d781c9e184df8",
+    "__main__.py": "045393612a88b0c5268df986738f33fb15bc503aefcc491e086b9c3360800e4a"
+  },
+  "outputs_sha256": {
+    "coverage_spreads.png": "b0268afc9d81f9680972fff183729b9f4d8abcd419926cae959756465e9c3285",
+    "exclusions.csv": "2c715ab2fea2f308d28ee8703edc11ee5b76367766db54307a3bbab098f8ce7c",
+    "metrics.json": "76a75e57f491a140f763e97e6a5a1162844ae887dc4b8293c5bef28229e8d150",
+    "private_contract_results.parquet": "450a73e29926a5fa4b222db163526f0444b3905179fce44a3db83b4d04e64c86",
+    "protocol.json": "33d4827341a91d2f72595ed9bde18d61062c0d4239868ad483308488eb9f2d20",
+    "REPORT.md": "10f6ee946f4542a8d0843cdd03233dcae3a42fbc5165c95b6d345cb5199689c6",
+    "slices.csv": "db053eb5850f8e5b0c08a2de2b020658e91c265772db7f1ba4a523b27de93e5f",
+    "valuation_intervals.png": "0c9a343c714647c17ad1dd1d3ac05e80c84b07cc3bf6044361233273f5b30716"
+  }
+}

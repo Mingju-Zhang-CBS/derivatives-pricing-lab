@@ -1,0 +1,14 @@
+{
+  "cases": 1296,
+  "reference": "QuantLib 1.44 BlackCalculator",
+  "max_absolute_errors": {
+    "price_error": 4.263256414560601e-14,
+    "delta_error": 4.779510121011299e-14,
+    "gamma_error": 9.547918011776346e-15,
+    "vega_error": 1.4210854715202004e-13,
+    "theta_error": 4.416911281168723e-12,
+    "rho_error": 4.547473508864641e-13
+  },
+  "data_kind": "deterministic-parameter-grid",
+  "tolerance": 1e-08
+}

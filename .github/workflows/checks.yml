@@ -11,6 +11,9 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -r requirements.lock.txt
+      - run: python -m pip install QuantLib==1.44 pyarrow==26.0.0
       - run: python -m pip install --no-deps -e .
       - run: python -m pytest
       - run: python -m pricing_lab --output local-runs/ci
+      - run: python -m pricing_lab.diagnostics --benchmark --output local-runs/benchmark-ci
+      - run: python -m pricing_lab.diagnostics --fixture --output local-runs/quote-fixture-ci
