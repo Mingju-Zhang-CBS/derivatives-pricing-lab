@@ -18,7 +18,7 @@ The new quote workflow matches security/date/expiry/settlement, checks units and
 
 This project connects analytical European option prices and Greeks to Monte Carlo estimates and a self-financing short-option hedge. It uses the published Black-Scholes-Merton model, declared parameters and common simulated stock paths.
 
-**Python 3.12 · NumPy · SciPy · 8 local tests passed · Simulated paths · MIT**
+**Python 3.12 · NumPy · SciPy · 12 tests passed · Numerical grid and simulation · MIT**
 
 ## Read the result first
 
